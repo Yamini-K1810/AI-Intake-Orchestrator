@@ -1,0 +1,10 @@
+From: buyer@company.com
+Subject: Request for Quotation
+
+Hi,
+
+We need a quotation for the following items.
+
+Please respond as soon as possible. This is urgent.
+
+Conversation-ID: RFQ-2025-0001
