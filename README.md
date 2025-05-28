@@ -28,20 +28,24 @@ The system accepts inputs in **PDF, JSON, or Email** formats, classifies the for
 
 ## Folder Structure
 
-/agents
-├── classifier_agent.py
-├── email_parser_agent.py
-└── json_agent.py
-/mcp
-└── orchestrator.py
-/memory
-└── memory_store.py
-/data
-├── sample_email.txt
-└── sample_json.json
-/app.py
-README.md
-
+flowbit-ai-intake-system/
+├── agents/
+│ ├── classifier_agent.py # Classifies input format and intent
+│ ├── email_parser_agent.py # Parses email text for metadata
+│ └── json_agent.py # Validates and extracts fields from JSON
+│
+├── memory/
+│ └── memory_store.py # Lightweight shared memory for context
+│
+├── mcp/
+│ └── orchestrator.py # Orchestrates end-to-end flow between agents
+│
+├── data/
+│ ├── sample_email.txt # Sample email input
+│ └── sample_json.json # Sample JSON input
+│
+├── app.py # Entry point for testing the full pipeline
+├── README.md # Project documentation and setup instructions
 
 ---
 
